@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPS Detector</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="cps_box">
+        <p id="heading">CPS Detector<p>
+        <div id="counters">
+            <p>Clicks: <span id="click_count">0</span></p>
+            <p>Seconds Left: <span id="time_count">5</span><span>s</span></p>        
+        </div>
+        <div id="highestcpsbox">
+            <p>Record: <span id="highestcpstext">0.0</span></p>
+        </div>
+        <center> <button onclick="incrementClickAndDecrementCounter()">Click Here</button></center>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
